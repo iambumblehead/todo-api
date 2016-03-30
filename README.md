@@ -36,7 +36,6 @@ Install postgresql-client (`$ sudo apt-get install postgresql-client`)
   ```bash
   $ docker run -it -p 5432:5432 todo/container-psql
   ```
-  -d <DB> -U user
 
 
 Visit the ip address seen with `$ docker-machine env todopsql` at port 5432. ex,
