@@ -8,8 +8,6 @@ Basic setup is achieved following [this guide][0]. Install [docker engine][1] an
 --------------------------------------------
 ## development install (psql)
 
-Basic setup is achieved following [this guide][10].
-
 Install postgresql-client (`$ sudo apt-get install postgresql-client`)
 
  1. Create the docker-machine (or use an existing machine seen with `$ docker-machine ls`)
