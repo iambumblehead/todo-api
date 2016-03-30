@@ -11,7 +11,6 @@ Basic setup is achieved following [this guide][0]. Install [docker engine][1] an
 Basic setup is achieved following [this guide][10].
 
 Install postgresql-client (`$ sudo apt-get install postgresql-client`)
-##psql -h server.domain.org database user
 
  1. Create the docker-machine (or use an existing machine seen with `$ docker-machine ls`)
 
@@ -77,9 +76,7 @@ $ psql -h 192.168.99.101 -p 5432 -d docker -U docker
   $ docker run -it -p 4500:4500 container/todo-api
   ```
 
-Visit the ip address listed with `$ docker-machine env todoapi` at port 4500, ex,
-
-[http://192.168.99.100:4500/save](http://192.168.99.100:4500/test)
+Visit the ip address listed with `$ docker-machine env todoapi` at port 4500, ex, [http://192.168.99.100:4500/save](http://192.168.99.100:4500/test)
 
 
 
